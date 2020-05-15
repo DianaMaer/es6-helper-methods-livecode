@@ -10,3 +10,5 @@ const people = [
 //     { name: 'James', age: 18 },
 //     { name: 'Alice', age: 20 }
 // ]
+let newArray = people.map(item => item.age).filter(adult => adult >=18);
+console.log(newArray);
